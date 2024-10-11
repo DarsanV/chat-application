@@ -211,7 +211,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62,5%;
+  font-size: 62.5%;
 }
 
 .wrapper {
@@ -249,7 +249,7 @@
   color: white;
   margin-bottom: 30px;
   width: 100%;
-  font-size: 2.3em;;
+  font-size: 2.3em;
 }
 
 .button {
@@ -267,12 +267,14 @@
   margin: 5px;
   width: 90%;
 }
+
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.4s;
 }
+
 .button span:after {
   content: '\00bb';
   position: absolute;
@@ -281,9 +283,11 @@
   right: -20px;
   transition: 0.5s;
 }
+
 .button:hover span {
   padding-right: 25px;
 }
+
 .button:hover span:after {
   opacity: 1;
   right: 0;
